@@ -4,7 +4,7 @@ class Solution {
         int n = t.length();  
         int j = 0;  
         
-        // Traverse string t  
+        // Traverse string n  
         for (int i = 0; i < n && j < m; i++) {  
             if (t.charAt(i) == s.charAt(j)) {  
                 j++;  
