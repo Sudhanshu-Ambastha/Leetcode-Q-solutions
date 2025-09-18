@@ -11,22 +11,20 @@ class Solution {
             char charS = s.charAt(i);  
             char charT = t.charAt(i);  
             
-            // Check mapping from s to t  
             if (mapST.containsKey(charS)) {  
                 if (mapST.get(charS) != charT) {  
-                    return false; // Different mapping  
+                    return false;  
                 }  
             } else {  
-                mapST.put(charS, charT); // Create a new mapping  
+                mapST.put(charS, charT); 
             }  
             
-            // Check mapping from t to s  
             if (mapTS.containsKey(charT)) {  
                 if (mapTS.get(charT) != charS) {  
-                    return false; // Different mapping  
+                    return false;
                 }  
             } else {  
-                mapTS.put(charT, charS); // Create a new mapping  
+                mapTS.put(charT, charS); 
             }  
         }  
         
