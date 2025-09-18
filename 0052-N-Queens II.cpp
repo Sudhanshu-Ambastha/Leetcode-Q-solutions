@@ -6,6 +6,7 @@ public:
         vector<bool> antiD(2 * n - 1, true);
         
         int count = 0;
+        
         bt(0, n, col, mainD, antiD, count);
         return count;
     }
