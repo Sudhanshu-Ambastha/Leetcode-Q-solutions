@@ -14,4 +14,5 @@ var removeDuplicate = function(s) {
     }
     return stack.join("");
 };
+
 console.log(removeDuplicate("abbaca"));
