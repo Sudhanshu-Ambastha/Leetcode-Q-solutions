@@ -22,6 +22,7 @@ public:
                 }
             }
         }
+        
         return has_vowel && has_consonant;
     }
     
