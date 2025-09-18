@@ -48,4 +48,3 @@ public:
         queen(board, 0, n, ans);
         return ans;
     }
-};
