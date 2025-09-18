@@ -14,7 +14,6 @@ class Solution {
             result[k--] = (char) (sum % 10 + '0');
         }
 
-        // Find the first non-zero character
         int start = 0;
         while (start < result.length - 1 && result[start] == '\u0000') {
             start++;
